@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מערכת בנקאית</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  
+<template id="mainTemplate">
+  <div class="main-container">
+    <div class="header">
+      <h1>מערכת בנקאית</h1>
+      <button id="logoutButton" onclick="logout()" class="logout-btn">התנתק</button>
+    </div>
+    
+    <div id="currentUserDetails" class="user-details">
+      <h2>פרטי חשבון</h2>
+      <p>מספר חשבון: <span id="currenUserName"></span></p>
+      <p>יתרה: <span id="currentUserBalance"></span></p>
+      <p>זכאות להלואה: <span id="LoanEligibilityAmount"></span></p>
+    </div>
+    
+    <div class="actions-container">
+      <div id="transferMoneyDiv" class="action-card">
+        <h3>העברת כסף</h3>
+        <input type="text" id="transferAmount" placeholder="סכום להעברה">
+        <input type="text" id="addresseeAccount" placeholder="מספר חשבון יעד">
+        <button id="transferMoneyButton" onclick="transferMoney()">העבר כסף</button>
+      </div>
+      
+      <div id="depositDiv" class="action-card">
+        <h3>הפקדה</h3>
+        <input type="text" id="depositAmount" placeholder="סכום להפקדה">
+        <button id="depositButton" onclick="deposit()">הפקד</button>
+      </div>
+      
+      <div id="withdrawDiv" class="action-card">
+        <h3>משיכה</h3>
+        <input type="text" id="withdrawAmount" placeholder="סכום למשיכה">
+        <button id="withdrawButton" onclick="withdraw()">משוך</button>
+      </div>
+      
+      <div id="closeAccountDiv" class="action-card">
+        <h3>מחיקת חשבון</h3>
+        <button id="closeAccountButton" onclick="deleteUser()" class="danger-btn">מחק חשבון</button>
+      </div>
+      
+      <div id="openAccountHistoryDiv" class="action-card">
+        <h3>היסטוריית חשבון</h3>
+        <button id="openAccountHistoryButton" onclick="openAccountHistory()">הצג היסטוריה</button>
+        <div id="openAccountHistoryList" class="history-list"></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="loginTemplate">
+  <div class="auth-container">
+    <div class="auth-card">
+      <div class="logo">
+        <div class="logo-icon">🏦</div>
+        <div class="logo-text">RedBank</div>
+      </div>
+      <h1>כניסה למערכת</h1>
+      <div id="login" class="auth-form">
+        <input type="text" id="loginIdInput" placeholder="מספר תעודת זהות" />
+        <input type="password" id="loginPasswordInput" placeholder="סיסמה" />
+        <button id="loginButton" onclick="logIn()" class="primary-btn">התחבר</button>
+        <p>אין לך חשבון? <a href="#signup" id="goToSignUpLink">הירשם כאן</a></p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="signInTemplate">
+  <div class="auth-container">
+    <div class="auth-card">
+      <div class="logo">
+        <div class="logo-icon">🏦</div>
+        <div class="logo-text">RedBank</div>
+      </div>
+      <h1>הרשמה למערכת</h1>
+      <div id="signIn" class="auth-form">
+        <input type="text" id="signInNameInput" placeholder="שם מלא" />
+        <input type="text" id="signInAddressInput" placeholder="כתובת" />
+        <input type="text" id="signInIdInput" placeholder="מספר תעודת זהות" />
+        <input type="password" id="signInPasswordInput" placeholder="סיסמה" />
+        <button id="signInButton" onclick="signIn()" class="primary-btn">הירשם</button>
+        <p>כבר יש לך חשבון? <a href="#login" id="goToLoginLink">התחבר כאן</a></p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="welcomeTemplate">
+  <div class="welcome-overlay">
+    <div class="welcome-card">
+      <div class="welcome-icon">🎉</div>
+      <h2>ברוכים הבאים ל-RedBank!</h2>
+      <p>החשבון שלך נוצר בהצלחה</p>
+      <div class="account-info">
+        <p>מספר החשבון שלך:</p>
+        <p class="account-number"></p>
+      </div>
+      <p class="redirect-text">מעביר אותך לחשבון שלך...</p>
+    </div>
+  </div>
+</template>
+
+<script src="../JS/validation.js"></script>
+<script src="../JS/errorHandler.js"></script>
+<script src="../JS/client.js"></script>
+<script src="../JS/DB/accountDB.js"></script>
+<script src="../JS/DB/usersDB.js"></script>
+<script src="../JS/SERVER/usersServer.js"></script>
+<script src="../JS/FAJAX.js"></script>
+<script src="../JS/SERVER/accountServer.js"></script>
+<script src="../JS/network.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+[
+  {
+    "accountNumber": "123456",
+    "branch": "101",
+    "balance": 15000.75,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+    ]
+  },
+  {
+    "accountNumber": "234567",
+    "branch": "102",
+    "balance": 2000.00,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Payment to electricity company" },
+      { "description": "Salary deposit" },
+      { "description": "Coffee shop - 32 NIS" }
+    ]
+  },
+  {
+    "accountNumber": "345678",
+    "branch": "103",
+    "balance": 7800.25,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Check deposit" },
+      { "description": "Car insurance payment" },
+      { "description": "Transfer received from 123456" }
+    ]
+  },
+  {
+    "accountNumber": "456789",
+    "branch": "104",
+    "balance": 500.50,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Grocery store - 150 NIS" },
+      { "description": "Bus card reload" },
+      { "description": "Mobile bill payment" }
+    ]
+  },
+  {
+    "accountNumber": "567890",
+    "branch": "105",
+    "balance": 32000.00,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Sold stocks - 10,000 NIS" },
+      { "description": "Transfer to 901234" },
+      { "description": "Hotel booking payment" }
+    ]
+  },
+  {
+    "accountNumber": "678901",
+    "branch": "106",
+    "balance": 120.10,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Coffee shop - 22 NIS" },
+      { "description": "ATM withdrawal - 100 NIS" },
+      { "description": "Transfer from 789012" }
+    ]
+  },
+  {
+    "accountNumber": "789012",
+    "branch": "107",
+    "balance": 8900.00,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Electric bill payment" },
+      { "description": "Deposit 5000 NIS" },
+      { "description": "Cinema tickets - 90 NIS" }
+    ]
+  },
+  {
+    "accountNumber": "890123",
+    "branch": "108",
+    "balance": 400.00,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Transfer to 678901" },
+      { "description": "Phone recharge - 50 NIS" },
+      { "description": "Supermarket - 120 NIS" }
+    ]
+  },
+  {
+    "accountNumber": "901234",
+    "branch": "109",
+    "balance": 1500.00,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Received from 567890" },
+      { "description": "Buy book - 80 NIS" },
+      { "description": "Pharmacy - 45 NIS" }
+    ]
+  },
+  {
+    "accountNumber": "012345",
+    "branch": "110",
+    "balance": 10000.00,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Flight ticket - 1200 NIS" },
+      { "description": "Gas station - 250 NIS" },
+      { "description": "Salary deposit" }
+    ]
+  }
+]
+[
+  {
+    "accountNumber": "123456",
+    "branch": "101",
+    "balance": 15000.75,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [],
+    "idNumber": "123456789"
+  },
+  {
+    "accountNumber": "234567",
+    "branch": "102",
+    "balance": 2000.00,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Payment to electricity company" },
+      { "description": "Salary deposit" },
+      { "description": "Coffee shop - 32 NIS" }
+    ],
+    "idNumber": "234567891"
+  },
+  {
+    "accountNumber": "345678",
+    "branch": "103",
+    "balance": 7800.25,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Check deposit" },
+      { "description": "Car insurance payment" },
+      { "description": "Transfer received from 123456" }
+    ],
+    "idNumber": "345678912"
+  },
+  {
+    "accountNumber": "456789",
+    "branch": "104",
+    "balance": 500.50,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Grocery store - 150 NIS" },
+      { "description": "Bus card reload" },
+      { "description": "Mobile bill payment" }
+    ],
+    "idNumber": "456789123"
+  },
+  {
+    "accountNumber": "567890",
+    "branch": "105",
+    "balance": 32000.00,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Sold stocks - 10,000 NIS" },
+      { "description": "Transfer to 901234" },
+      { "description": "Hotel booking payment" }
+    ],
+    "idNumber": "567891234"
+  },
+  {
+    "accountNumber": "678901",
+    "branch": "106",
+    "balance": 120.10,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Coffee shop - 22 NIS" },
+      { "description": "ATM withdrawal - 100 NIS" },
+      { "description": "Transfer from 789012" }
+    ],
+    "idNumber": "678912345"
+  },
+  {
+    "accountNumber": "789012",
+    "branch": "107",
+    "balance": 8900.00,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Electric bill payment" },
+      { "description": "Deposit 5000 NIS" },
+      { "description": "Cinema tickets - 90 NIS" }
+    ],
+    "idNumber": "789123456"
+  },
+  {
+    "accountNumber": "890123",
+    "branch": "108",
+    "balance": 400.00,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Transfer to 678901" },
+      { "description": "Phone recharge - 50 NIS" },
+      { "description": "Supermarket - 120 NIS" }
+    ],
+    "idNumber": "891234567"
+  },
+  {
+    "accountNumber": "901234",
+    "branch": "109",
+    "balance": 1500.00,
+    "LoanEligibilityAmount": 0,
+    "recentActions": [
+      { "description": "Received from 567890" },
+      { "description": "Buy book - 80 NIS" },
+      { "description": "Pharmacy - 45 NIS" }
+    ],
+    "idNumber": "912345678"
+  },
+  {
+    "accountNumber": "012345",
+    "branch": "110",
+    "balance": 10000.00,
+    "LoanEligibilityAmount": 50000,
+    "recentActions": [
+      { "description": "Flight ticket - 1200 NIS" },
+      { "description": "Gas station - 250 NIS" },
+      { "description": "Salary deposit" }
+    ],
+    "idNumber": "102345678"
+  }
+]
+
+[
+  {
+    "fullName": "שרה כהן",
+    "idNumber": "123456789",
+    "address": "רח' חזון איש 12, בני ברק",
+    "password": "Sara1234"
+  },
+  {
+    "fullName": "מנחם לוי",
+    "idNumber": "234567891",
+    "address": "רח' הרב מבריסק 8, ירושלים",
+    "password": "LeviM22"
+  },
+  {
+    "fullName": "חיה פרידמן",
+    "idNumber": "345678912",
+    "address": "רח' הרצל 15, אלעד",
+    "password": "ChayaF99"
+  },
+  {
+    "fullName": "יוסף גולדשטיין",
+    "idNumber": "456789123",
+    "address": "רח' עולי הגרדום 3, אשדוד",
+    "password": "Yossi456"
+  },
+  {
+    "fullName": "דבורה רוזנבלום",
+    "idNumber": "567891234",
+    "address": "רח' חזון דוד 7, מודיעין עילית",
+    "password": "Devora88"
+  },
+  {
+    "fullName": "אברהם הרשקוביץ",
+    "idNumber": "678912345",
+    "address": "רח' רשב\"ם 4, ביתר עילית",
+    "password": "Avremi2025"
+  },
+  {
+    "fullName": "רחל שטרן",
+    "idNumber": "789123456",
+    "address": "רח' רבן יוחנן בן זכאי 6, פתח תקווה",
+    "password": "Racheli77"
+  },
+  {
+    "fullName": "שמואל ברגר",
+    "idNumber": "891234567",
+    "address": "רח' רמב\"ם 10, תל אביב",
+    "password": "ShmuelB1"
+  },
+  {
+    "fullName": "אסתר ויינר",
+    "idNumber": "912345678",
+    "address": "רח' עזרת תורה 18, ירושלים",
+    "password": "Esti234"
+  },
+  {
+    "fullName": "יעקב רוזנר",
+    "idNumber": "102345678",
+    "address": "רח' שדרות דוד המלך 9, קריית ספר",
+    "password": "YaakovR9"
+  }
+]
+
+
+[{
+    fullName: "שרה כהן",
+    idNumber: "123456789",
+    address: "רח' חזון איש 12, בני ברק",
+    password: "Sara1234"
+  },
+  {
+    fullName: "מנחם לוי",
+    idNumber: "234567891",
+    address: "רח' הרב מבריסק 8, ירושלים",
+    password: "LeviM22"
+  },
+  {
+    fullName: "חיה פרידמן",
+    idNumber: "345678912",
+    address: "רח' הרצל 15, אלעד",
+    password: "ChayaF99"
+  },
+  {
+    fullName: "יוסף גולדשטיין",
+    idNumber: "456789123",
+    address: "רח' עולי הגרדום 3, אשדוד",
+    password: "Yossi456"
+  },
+  {
+    fullName: "דבורה רוזנבלום",
+    idNumber: "567891234",
+    address: "רח' חזון דוד 7, מודיעין עילית",
+    password: "Devora88"
+  },
+  {
+    fullName: "אברהם הרשקוביץ",
+    idNumber: "678912345",
+    address: "רח' רשב"ם 4, ביתר עילית",
+    password: "Avremi2025"
+  },
+  {
+    fullName: "רחל שטרן",
+    idNumber: "789123456",
+    address: "רח' רבן יוחנן בן זכאי 6, פתח תקווה",
+    password: "Racheli77"
+  },
+  {
+    fullName: "שמואל ברגר",
+    idNumber: "891234567",
+    address: "רח' רמב"ם 10, תל אביב",
+    password: "ShmuelB1"
+  },
+  {
+    fullName: "אסתר ויינר",
+    idNumber: "912345678",
+    address: "רח' עזרת תורה 18, ירושלים",
+    password: "Esti234"
+  },
+  {
+    fullName: "יעקב רוזנר",
+    idNumber: "102345678",
+    address: "רח' שדרות דוד המלך 9, קריית ספר",
+    password: "YaakovR9"
+  }]
+  
